@@ -1,0 +1,22 @@
+#about_us{
+    background-color: white;
+    padding-top: 20px;
+}
+#about_us>div{
+    padding: 3rem;
+    gap: 15px;
+}
+#about_us>div p{
+    text-align: justify;
+}
+#about_us>div>section p:nth-last-child(1){
+    margin-bottom:0 ;
+}
+#about_us img{
+    width: 650px;
+    height: 450px;
+    transition: all 0.2s;
+}
+.abt-img:hover{
+    filter: drop-shadow(2px 4px 6px #9999);
+}

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+:root{
+  --primary-color:#1f98f4
+}
+html{
+  scroll-behavior: smooth;
+}
+.title-underline{
+  position: relative;
+}
+.title-underline:after {
+  background: linear-gradient(90.09deg, var(--primary-color) -7.63%, rgba(250, 67, 24, 0) 99.84%);
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  width: 100px;
+  z-index: 3;
+}
+.title-underline.center:after{
+  left: 43%;
 }

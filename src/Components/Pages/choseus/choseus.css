@@ -1,0 +1,18 @@
+#choose_us{
+    background-color: white;
+    padding-top: 20px;
+}
+#choose_us>div{
+    padding: 3rem;
+    gap: 15px;
+}
+#choose_us>div p{
+    text-align: justify;
+}
+#choose_us>div>section p:nth-last-child(1){
+    margin-bottom:0 ;
+}
+#choose_us img{
+    width: 650px;
+    height: 450px;
+}

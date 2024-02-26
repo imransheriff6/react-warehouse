@@ -1,0 +1,27 @@
+#history{
+    background-color: white;
+    padding-top: 20px;
+}
+.vc_row-fluid{
+    justify-content: center;
+    gap: 150px;
+    margin-top: 71px;
+}
+.vc_column-inner .box h4 {
+    color:#252e48
+}
+.vc_column-inner .box span {
+    /* color:#252e48 */
+    font-size: 42px;
+}
+.vc_column-inner .box p{
+    margin-bottom: 0;
+    font-size: 22px;
+    color: grey;
+}
+.cms-icon i{
+    transition: all 0.2s;
+}
+.cms-icon i:hover{
+    color: var(--primary-color) !important;
+}
